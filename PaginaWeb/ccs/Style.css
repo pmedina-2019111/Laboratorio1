@@ -69,3 +69,10 @@ body {
     font-weight: 100;
     margin-bottom: 20px;
 }
+
+.miSeccion {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
