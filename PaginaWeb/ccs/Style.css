@@ -8,6 +8,13 @@ body {
     background: url('../img/bg.png') no-repeat;
     background-size: cover;
     font-family: 'Courier New', Courier, monospace;
+    place-items: center;
+}
+
+button {
+    display: flex;
+            justify-content: center;
+            align-items: center;
 }
 
 .foto1 {
