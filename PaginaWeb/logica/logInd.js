@@ -1,14 +1,7 @@
-function reproducirVideo() {
-
-    var rutaVideo = '../';
-
-    var videoElemento = document.createElement('video');
-    videoElemento.src = rutaVideo;
-    videoElemento.controls = true;
-
-
-    document.body.appendChild(videoElemento);
+function redirect(){
+    window.location.assign('https://www.youtube.com/watch?v=m3fx4LUBSrM');
 }
 
-document.getElementById('reproducirTexto').addEventListener('click', reproducirVideo);
-
+function redirect2(){
+    window.location.assign('https://www.youtube.com/watch?v=oa8VfD_uyxc');
+}
