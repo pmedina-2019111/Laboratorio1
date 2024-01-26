@@ -1,4 +1,4 @@
-// Contenido de script.js
+
 function mostrarSeccion() {
     var seccion = document.getElementById("miSeccion");
     seccion.style.display = "block";

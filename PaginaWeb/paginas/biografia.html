@@ -9,10 +9,17 @@
 </head>
 <body>
 
-    <div id="miIcono" onclick="mostrarSeccion()">
-        <img src="../img/yo.jpeg" width="180" alt="" class="box-img">
+    <header class="box-hed">
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="#">KINAL</a>
+        </nav>       
+    </header>
+    <div id="miIcono" class="foto1" onclick="mostrarSeccion()">
+        <img src="../img/yo.jpeg" width="180" alt="" class="box-img" >
+        <button onclick="cerrarSeccion()">Cerrar</button>
     </div>
-
+    
     <section id="miSeccion">
         <section class="box">
             <h1>Pedro Medina</h1>
@@ -29,12 +36,7 @@
         <button onclick="cerrarSeccion()">Cerrar</button>
     </section>
 
-    <header class="box-hed">
-        <nav>
-            <a href="../index.html">Inicio</a>
-            <a href="#">KINAL</a>
-        </nav>       
-    </header>
+    
     
 
     <script src="../logica/logBio.js"></script>

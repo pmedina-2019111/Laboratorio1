@@ -10,6 +10,14 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.foto1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+    align-items: center;
+    place-items: center;
+}
+
 .box {
     width: 500px;
     background: rgba(0, 0, 0, 4);
@@ -23,6 +31,10 @@ body {
 
 .box-img {
     border-radius: 50%;
+    border: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box h1 {
@@ -68,11 +80,4 @@ body {
     letter-spacing: 3px;
     font-weight: 100;
     margin-bottom: 20px;
-}
-
-.miSeccion {
-    display: none;
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
 }
