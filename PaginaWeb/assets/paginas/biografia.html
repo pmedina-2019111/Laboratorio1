@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biografia</title>
+    ;<link rel="stylesheet" href="../ccs/Style.css">
+</head>
+<body>
+
+    <header class="box-hed">
+        <nav>
+            <a href=".index.html">Inicio</a>
+            <a href="#">KINAL</a>
+        </nav>       
+    </header>
+    <div id="miIcono" class="foto1" onclick="mostrarSeccion()">
+        <img src="../resource/img/yo.jpeg" width="180" alt="" class="box-img" >
+        
+    </div>
+    <button style="margin-left: 700px; margin-top: 50px;"  onclick="cerrarSeccion()">Cerrar</button>    
+    <section id="miSeccion">
+        <section class="box">
+            <h1>Pedro Medina</h1>
+            <h2>Estudiante de Kinal</h2>
+            <p>Mi nombre es Pepe, un estudiante apasionado por la informática, nacido y criado en Guatemala. Actualmente tengo 17 años y curso el sexto perito en informática en el Centro Educativo Técnico Laboral Kinal. Desde joven, me he sentido atraído por el mundo de la tecnología y la programación. Mis amigos y familiares siempre me han considerado el "experto en computadoras" de la familia.
+    
+                Ingresé a Kinal con el sueño de convertir mi pasión por la informática en una carrera exitosa. Durante mis años en la escuela, he adquirido sólidos conocimientos en programación, redes, y sistemas, gracias a la excelente formación que ofrece Kinal. Me encanta enfrentar nuevos desafíos y aprender constantemente sobre las últimas tendencias en tecnología.</p>
+        </section>
+        <section class="box-2">
+            <h1>Que espero del curso</h1>
+            <p>
+                Este año académico, en el sexto perito en informática, estoy emocionado por consolidar y profundizar mis conocimientos en programación. Mi plan incluye dedicar más tiempo al desarrollo de habilidades prácticas mediante la participación activa en proyectos y desafíos del mundo real. Además, estoy ansioso por mejorar mis habilidades de trabajo en equipo y liderazgo, reconociendo la importancia de la colaboración en el campo de la informática. Aspiro a explorar nuevas áreas, como inteligencia artificial, con el objetivo final de graduarme con habilidades sólidas para enfrentar los retos laborales y contribuir al avance tecnológico en Guatemala. En resumen, este año académico representa un período lleno de expectativas y desafíos, y estoy preparado para aprovechar al máximo las oportunidades que Kinal y la educación en informática me brindan.</p>
+        </section>
+        <section class="box-3">
+            <h2>Lenguajes de Programacion que manejo</h2>
+            <p>Los siguientes lenguajes son los que he aprendido en los ultimos 2 años dentro de kinal</p>
+            <ul class="lenguajes-lista">
+                <li><h3>JavaScript</h3></li>
+                <li><h3>Java</h3></li>
+                <li><h3>HTML</h3></li>
+                <li><h3>CSS</h3></li>
+                <li><h3>SQL</h3></li>   
+            </ul>
+        </section>
+        <section class="box-4">
+            <h2>Aqui Puedes contactarme!!</h2> 
+           <p>En el siguiente formulario puedes llenar tus datos para contactarme</p>
+           <form action="javascript:void(0);" onsubmit="enviarFormularo()">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo Electronico</label>
+                <input type="email" id="email" name="email" required>
+                <button style="margin-left: 40%;"" id="botonEnviar">Enviar</button>
+           </form>
+        </section>
+        <section class="box-5">
+            <h2>Proyectos</h2>
+            <ul class="Proyectos">
+                <li>
+                    <h1>Tonys kinal</h1>
+                    <p>Programa administrativo de un restaurante</p>
+                </li>
+            </ul>
+            <ul class="Proyectos">
+                <li>
+                    <h2>eBookHub</h2>
+                    <p>Basicamente es una libreria en linea tanto para leer y compra en fisico</p>                 
+                </li>
+            </ul>
+        </section>
+    </section>
+
+    
+    
+
+    <script src="../logica/logBio.js"></script>
+</body>
+</html>
